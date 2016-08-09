@@ -1,5 +1,5 @@
 # collatz
-Implementing the Collatz Conjecture in Haskell
+Implementing the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) in Haskell
 
 Inspired by Numberphile: https://www.youtube.com/watch?v=5mFpVDpKX70
 
