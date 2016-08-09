@@ -14,3 +14,7 @@ largestCollatz xs = foldl
                                         then (x, currentCollatzLength)
                                         else acc)
                         (0, 0) xs
+
+toOne :: Int -> [Int]
+toOne 1 = [1]
+toOne x = x : toOne (x-1)
